@@ -3,13 +3,14 @@
 Library for communicating with and controlling the [PenguinPi](https://cirrusrobotics.com/products/penguinpi/) robot platform.
 
 **Key features:**
+
 - Motor control and encoder querying
 - Access to camera
 - Access to HAT and LED screen
 
-# Installing
+## Installing
 
-```
+```sh
 # Python2.7
 pip install penguinpi
 
@@ -17,7 +18,8 @@ pip install penguinpi
 pip3 install penguinpi
 ```
 
-# Basic usage
+## Basic usage
+
 ```py
 import penguinpi
 import time
